@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_menu2l2_array">
+        <item>헤드폰/스피커</item>
+        <item>항상 재생</item>
+        <item>재생 안 함</item>
+    </string-array>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".account.ProfileUpdateNickFragment">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/fragProUptNick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="현재 닉네임은 사용자1입니다."
+        android:textAlignment="center"
+        android:textColor="#ccc"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아이디의 대소문자를 변경해 보세요."
+        android:textAlignment="center"
+        android:textColor="#ccc"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="닉네임"
+        android:textSize="18dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/changeNickEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="사용자1"
+        android:textColor="#fff"
+        android:background="@color/bg"/>
+</LinearLayout>

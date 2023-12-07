@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_menu2l3_array">
+        <item>Wi-Fi만</item>
+        <item>모바일 데이터 및 Wi-Fi</item>
+        <item>재생 안함</item>
+    </string-array>
+</resources>

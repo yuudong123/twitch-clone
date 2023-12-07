@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="10dp">
+
+    <ImageView
+        android:id="@+id/main4IngiCategoryImage"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:src="@drawable/category_image1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/main4IngiCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Just Chatting"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/main4IngiCategoryViewer"
+            android:text="시청자 27.61만명"
+            android:textColor="#ccc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="태그"
+            android:background="@drawable/tagbox"
+            android:textAlignment="center"
+            android:paddingHorizontal="8dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

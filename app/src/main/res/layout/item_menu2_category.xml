@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_marginHorizontal="5dp">
+
+    <ImageView
+        android:id="@+id/menu2CategoryImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/category_image1"/>
+
+    <TextView
+        android:id="@+id/menu2CategoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="리그 오브 레전드"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/menu2CategoryViewer"
+
+            android:text="시청자 9.14만명"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#cccccc"/>
+    </LinearLayout>
+
+</LinearLayout>

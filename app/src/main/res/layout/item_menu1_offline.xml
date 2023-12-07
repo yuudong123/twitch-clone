@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:id="@+id/menu1OfflineBlock"
+    android:layout_marginVertical="5dp">
+
+    <ImageView
+        android:id="@+id/menu1OfflineImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/profile_img9"/>
+
+    <TextView
+        android:id="@+id/menu1OfflineNickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="김나성"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/menu1OfflineId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(naseongkim)"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>
